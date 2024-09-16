@@ -73,6 +73,60 @@ body {
     background-color: #5C62EC;
 }
 
-.nav-list__item {
+.authorCV {
+    background-color: #171718;
+    height: 760px;
+}
 
+.abstractImg {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width: 628px;
+    height: 628px;
+}
+.textAboutAuthor {
+    font-family: 'DM Sans', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.nameOfAuthor {
+    padding-top: 200px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 56px;
+    letter-spacing: 0.5px;
+}
+
+.otherOfAuthor {
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.5px;
+
+}
+
+.buttonCV {
+    cursor: pointer;
+    width: 160px;
+    height: 48px;
+    top: 60%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    border-radius: 5px;
+    background-color: #5C62EC;
+    position: absolute;
+}
+.downloadingCV {
+    color: #fff;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+    margin-left: 25px;
+    margin-top: 12px;
 }
